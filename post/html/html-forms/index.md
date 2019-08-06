@@ -10,7 +10,7 @@ Forms are the way you can interact with a page, or an app, built with Web techno
 
 You have a set of controls, and when you submit the form, either with a click to a "submit" button or programmatically, the browser will send the data to the server.
 
-By default this data sending causes the page to reload after the data is sent, but using JavaScript you can alter this behavior (not going to explain how in this book).
+By default, this data sending causes the page to reload after the data is sent, but using JavaScript you can alter this behavior (not going to explain how in this book).
 
 A form is created using the `form` tag:
 
@@ -20,7 +20,7 @@ A form is created using the `form` tag:
 </form>
 ```
 
-By default forms are submitted using the GET HTTP method. Which has its drawbacks, and usually you want to use POST.
+By default, forms are submitted using the GET HTTP method. Which has its drawbacks, and usually you want to use POST.
 
 You can set the form to use POST when submitted by using the `method` attribute:
 
@@ -52,7 +52,7 @@ If the origin (protocol + domain + port) is `https://flaviocopes.com` (port 80 i
 
 I talked about data. Which data?
 
-Data is provided by users via the set of control that are available on the Web platform:
+Data is provided by users via the set of controls that are available on the Web platform:
 
 - input boxes (single line text)
 - text areas (multiline text)
@@ -311,7 +311,7 @@ The `type="week"` input field allows the user to enter a week and a year:
 <input type="week" name="choose-week">
 ```
 
-All those fields allow to limit the range and the step between each value. I recommend checking MDN for the little details on their usage.
+All those fields allow you to limit the range and the step between each value. I recommend checking MDN for the little details on their usage.
 
 The `type="datetime-local"` field lets you choose a date and a time.
 
